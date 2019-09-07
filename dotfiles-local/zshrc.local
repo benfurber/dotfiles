@@ -1,0 +1,26 @@
+# Path to your oh-my-zsh installation.
+export ZSH="/Users/benfurber/.oh-my-zsh"
+
+# Theme
+ZSH_THEME="robbyrussell"
+
+POWERLEVEL9K_MODE='nerdfont-complete'
+source  ~/powerlevel9k/powerlevel9k.zsh-theme
+
+# Customise the Powerlevel9k prompts
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(ssh dir vcs newline status)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=()
+POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
+
+# Plugins
+plugins=(
+  git
+)
+
+source $ZSH/oh-my-zsh.sh
+
+# Load Zsh tools for syntax highlighting and autosuggestions
+HOMEBREW_FOLDER="/usr/local/share"
+source "$HOMEBREW_FOLDER/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
+source "$ZSH/zsh-autosuggestions/zsh-autosuggestions.zsh"
+

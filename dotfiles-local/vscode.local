@@ -1,0 +1,48 @@
+{
+  "window.zoomLevel": 1,
+  "editor.fontFamily": "Droid Sans Mono Nerd Font Complete, dMenlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 14,
+  "explorer.confirmDelete": false,
+  "editor.tabSize": 2,
+  "explorer.confirmDragAndDrop": false,
+  "javascript.validate.enable": false,
+  "cSpell.userWords": ["elpis", "thoughtbot"],
+  "diffEditor.ignoreTrimWhitespace": false,
+  "flow.pathToFlow": "${workspaceRoot}/node_modules/.bin/flow",
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveTimeout": 5000,
+  "ruby.rubocop.executePath": "/Users/benfurber/.rvm/gems/ruby-2.5.3/bin/",
+  "ruby.format": "rubocop",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "Print to console": {
+    "prefix": [
+      "cl",
+      "co",
+      "con",
+      "cons",
+      "conso",
+      "consol",
+      "console",
+      "console.l",
+      "console.lo",
+      "console.log"
+    ],
+    "body": ["console.log($1);"],
+    "description": "Log output to console"
+  },
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "typescript.suggest.autoImports": false,
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    { "language": "typescript", "autoFix": true },
+    { "language": "typescriptreact", "autoFix": true }
+  ],
+  "workbench.startupEditor": "newUntitledFile",
+  "[ruby]": {
+    "editor.defaultFormatter": "misogi.ruby-rubocop"
+  }
+}

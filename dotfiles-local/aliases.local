@@ -1,0 +1,16 @@
+# Aliases for list commands with colorful output
+alias lsc="colorls"
+alias ls='ls -G'
+
+# Alias for Code
+alias c='code .'
+
+# Alias for AndroidStudio
+alias AndroidStudio="open -a /Applications/Android\ Studio.app"
+
+# For AWS (and general python stuff from pip)
+export PATH=~/.local/bin:$PATH
+export PATH=/Users/benfurber/Library/Python/3.7/bin:$PATH
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
